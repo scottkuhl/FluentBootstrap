@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="compilerconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="compilerconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="..\bootstrap.css" Link="wwwroot\css\bootstrap.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="..\bootstrap.min.css" Link="wwwroot\css\bootstrap.min.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\bootstrap.scss" Link="wwwroot\css\bootstrap.scss" />
+    <None Include="..\README.md" Link="README.md" />
+    <None Include="..\_dark.scss" Link="wwwroot\css\_dark.scss" />
+    <None Include="..\_light.scss" Link="wwwroot\css\_light.scss" />
+    <None Include="compilerconfig.json" />
+  </ItemGroup>
+
+</Project>

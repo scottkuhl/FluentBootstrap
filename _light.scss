@@ -1,0 +1,71 @@
+﻿/* Colors */
+
+// Neutrals
+
+$white: #fff !default;
+$gray-100: #f3f2f1 !default;
+$gray-200: #e1dfdd !default;
+$gray-300: #c8c6c4 !default;
+$gray-400: #b3b0ad !default;
+$gray-500: #979593 !default;
+$gray-600: #797775 !default;
+$gray-700: #484644 !default;
+$gray-800: #323130 !default;
+$gray-900: #252423 !default;
+$black: #000 !default;
+
+// Shared
+
+$blue: #4f6bed !default;
+$indigo: #5c2e91 !default;
+$purple: #881798 !default;
+$pink: #e3008c !default;
+$red: #d13438 !default;
+$orange: #ffaa44 !default;
+$yellow: #fce100 !default;
+$green: #498205 !default;
+$teal: #00ad56 !default;
+$cyan: #00b7c3 !default;
+
+// Messaging
+
+$primary: $blue !default;
+$secondary: $gray-600 !default;
+$success: #107c10 !default;
+$info: #dff6dd !default;
+$warning: #fff4ce !default;
+$danger: #a80000 !default;
+$light: $gray-100 !default;
+$dark: $gray-800 !default;
+
+/* Elevation */
+
+$enable-shadows: true !default;
+
+$box-shadow-sm: 0 1.6px 3.6px 0 rgba(0, 0, 0, 0.132), 0 0.3px 0.9px 0 rgba(0, 0, 0, 0.108) !default;
+$box-shadow: 0 3.2px 7.2px 0 rgba(0, 0, 0, 0.132), 0 0.6px 1.8px 0 rgba(0, 0, 0, 0.108) !default;
+$box-shadow-lg: 0 6.4px 14.4px 0 rgba(0, 0, 0, 0.132), 0 1.2px 3.6px 0 rgba(0, 0, 0, 0.108) !default;
+
+$border-radius: .15rem !default;
+$border-radius-lg: .2rem !default;
+$border-radius-sm: .1rem !default;
+
+/* Layout */
+
+$grid-breakpoints: ( xs: 0, sm: 480px, md: 640px, lg: 1024px, xl: 1366px ) !default;
+
+$container-max-widths: ( sm: 479px, md: 639px, lg: 1023px, xl: 1365px ) !default;
+
+/* Typography */
+
+$enable-responsive-font-sizes: true !default;
+
+$font-size-base: 1rem !default; // Assumes the browser default, typically `16px`
+
+$font-weight-lighter: 400 !default;
+$font-weight-light: 400 !default;
+$font-weight-normal: 400 !default;
+$font-weight-bold: 600 !default;
+$font-weight-bolder: 700 !default;
+
+$h1-font-size: $font-size-base * 2.625 !default;

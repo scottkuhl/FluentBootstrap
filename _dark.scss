@@ -1,0 +1,76 @@
+﻿@import "_light";
+
+$body-bg: $gray-900 !default;
+$body-color: $white !default;
+
+$table-accent-bg: $gray-800 !default;
+$table-border-color: $gray-700 !default;
+
+$input-border-color: $body-bg !default;
+$input-group-addon-color: $gray-500 !default;
+$input-group-addon-bg: $gray-700 !default;
+$custom-file-color: $gray-500 !default;
+$custom-file-border-color: $body-bg !default;
+
+$dropdown-bg: $gray-900 !default;
+$dropdown-border-color: $gray-700 !default;
+$dropdown-divider-bg: $gray-700 !default;
+$dropdown-link-color: $white !default;
+$dropdown-link-hover-color: $white !default;
+$dropdown-link-hover-bg: $primary !default;
+
+$nav-link-padding-x: 2rem !default;
+$nav-link-disabled-color: $gray-500 !default;
+$nav-tabs-border-color: $gray-700 !default;
+$nav-tabs-link-hover-border-color: $nav-tabs-border-color $nav-tabs-border-color transparent !default;
+$nav-tabs-link-active-color: $white !default;
+$nav-tabs-link-active-border-color: $nav-tabs-border-color $nav-tabs-border-color transparent !default;
+
+$navbar-padding-y: 1rem !default;
+$navbar-dark-color: rgba($white,.6) !default;
+$navbar-dark-hover-color: $white !default;
+$navbar-light-color: rgba($gray-900, .7) !default;
+$navbar-light-hover-color: $gray-900 !default;
+$navbar-light-active-color: $gray-900 !default;
+$navbar-light-toggler-border-color: rgba($gray-900, .1) !default;
+
+$pagination-color: $white !default;
+$pagination-bg: $primary !default;
+$pagination-border-width: 0 !default;
+$pagination-border-color: transparent !default;
+$pagination-hover-color: $white !default;
+$pagination-hover-bg: lighten($primary, 10%) !default;
+$pagination-hover-border-color: transparent !default;
+$pagination-active-bg: $pagination-hover-bg !default;
+$pagination-active-border-color: transparent !default;
+$pagination-disabled-color: $white !default;
+$pagination-disabled-bg: darken($primary, 15%) !default;
+$pagination-disabled-border-color: transparent !default;
+
+$jumbotron-bg: $gray-800 !default;
+
+$card-cap-bg: $gray-700 !default;
+$card-bg: $gray-800 !default;
+
+$popover-bg: $gray-800 !default;
+$popover-header-bg: $gray-700 !default;
+
+$toast-background-color: $gray-700 !default;
+$toast-header-background-color: $gray-800 !default;
+
+$modal-content-bg: $gray-800 !default;
+$modal-content-border-color: $gray-700 !default;
+$modal-header-border-color: $gray-700 !default;
+
+$progress-bg: $gray-700 !default;
+
+$list-group-bg: $gray-800 !default;
+$list-group-border-color: $gray-700 !default;
+$list-group-hover-bg: $gray-700 !default;
+
+$breadcrumb-bg: $gray-700 !default;
+
+$close-color: $white !default;
+$close-text-shadow: none !default;
+
+$pre-color: inherit !default;
