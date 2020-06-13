@@ -9,8 +9,10 @@ and not prevent you from upgrading to newer versions of Bootstrap.
 Other projects like [WinStrap](https://github.com/winjs/winstrap) and 
 [Fluent Design from MDB](https://github.com/mdbootstrap/bootstrap-fluent-design) have gone much deeper into making a
 Fluent clone but projects like these tend to get left behind and stuck on a particular
-version of Bootstrap because of this.  WinStrap is set to Boostrap 3.3.7 with Windows 8 guidelines and MDB
+version of Bootstrap because of this.  WinStrap is set to Bootstrap 3.3.7 with Windows 8 guidelines and MDB
 is set to 4.0.0 with older Windows 10 based guidelines.
+
+You can read the original blog post, Fluent UI for Bootstrap, [here](https://medium.com/@scottkuhl/fluent-ui-for-bootstrap-3fd983d0c2e3?source=friends_link&sk=65aea11f4abc4d5572866b0804529245).
 
 ## How to use in your project
 
